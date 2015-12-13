@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartHouse.Fridge">
+    <Position X="5.25" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SmartDevices\Fridge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Oven">
+    <Position X="0.5" Y="0.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAACEAQA=</HashCode>
+      <FileName>SmartDevices\Oven.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartHouse.GeneralFridge">
+    <Position X="4" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IgAAAgAAAAAAIAAAAAAAAAAAAQACAAAAAAQAAACEAAA=</HashCode>
+      <FileName>SmartDevices\GeneralFridge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartHouse.Freezer">
+    <Position X="3.75" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SmartDevices\Freezer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Closet">
+    <Position X="6" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SmartDevices\Closet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartHouse.Heater">
+    <Position X="2" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmartDevices\Heater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.AirConditioner">
+    <Position X="0.5" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmartDevices\AirConditioner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.HVAC">
+    <Position X="0.75" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>HVAC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartHouse.ObjManager">
+    <Position X="9.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ObjManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.SmartObj" Collapsed="true">
+    <Position X="5" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmartDevices\SmartObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.OnableDevice">
+    <Position X="2.75" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnableDevice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SmartHouse.IOpenable">
+    <Position X="8" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IOpenable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartHouse.IHasTemperature">
+    <Position X="8" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\IHasTemperature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartHouse.IHasMode">
+    <Position X="8" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHasMode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartHouse.IHasLight">
+    <Position X="8" Y="2.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHasLight.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartHouse.IHasTimer">
+    <Position X="8" Y="6" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\IHasTimer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartHouse.IOnOff" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOnOff.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
